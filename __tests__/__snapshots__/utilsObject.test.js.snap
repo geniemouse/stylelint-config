@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`alphabetizeByKeyName: alphabetizes the key names of an object 1`] = `
+Object {
+  "one": 1,
+  "three": 3,
+  "two": 2,
+}
+`;
