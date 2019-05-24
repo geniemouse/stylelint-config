@@ -1,17 +1,17 @@
 const obj = require("../utils/object");
 
 describe("alphabetizeByKeyName:", () => {
-    const { alphabetizeByKeyName } = obj,
-        sample = {
-            one: 1,
-            two: 2,
-            three: 3
-        },
-        expectedOutput = {
-            one: 1,
-            three: 3,
-            two: 2
-        };
+    const { alphabetizeByKeyName } = obj;
+    const sample = {
+        one: 1,
+        two: 2,
+        three: 3
+    };
+    const expectedOutput = {
+        one: 1,
+        three: 3,
+        two: 2
+    };
 
     test("is a function", () => {
         expect(typeof alphabetizeByKeyName).toBe("function");
