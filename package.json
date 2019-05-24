@@ -14,6 +14,10 @@
     "utils/",
     "index.js"
   ],
+  "jest": {
+    "verbose": false,
+    "collectCoverage": false
+  },
   "keywords": [
     "config",
     "configuration",
@@ -29,10 +33,6 @@
     "url": "https://geniemouse.com"
   },
   "license": "MIT",
-  "jest": {
-    "verbose": false,
-    "collectCoverage": false
-  },
   "dependencies": {
     "stylelint-a11y": "^1.2.0"
   },
@@ -48,5 +48,13 @@
   },
   "peerDependencies": {
     "stylelint": "^8.0.0 || ^9.0.0 || ^10.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geniemouse/stylelint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/geniemouse/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/geniemouse/stylelint-config#readme"
 }
