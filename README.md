@@ -1,3 +1,15 @@
+<!-- MarkdownTOC autolink="true" autoanchor="false" -->
+
+- [`@geniemouse/stylelint-config`](#geniemousestylelint-config)
+    - [Installation](#installation)
+    - [Configuration](#configuration)
+        - [`package.json`](#packagejson)
+        - [`.stylelintrc`](#stylelintrc)
+        - [Adding new/overriding rules](#adding-newoverriding-rules)
+        - [Using alongside Prettier](#using-alongside-prettier)
+
+<!-- /MarkdownTOC -->
+
 # `@geniemouse/stylelint-config`
 
 Keep project CSS formatting consistent and free of obvious errors across projects with [stylelint] and this base configuration.
@@ -28,22 +40,20 @@ yarn add @geniemouse/stylelint-config --dev
 
 ## Configuration
 
-Reference the configuration package in your project's `package.json` file:
+Add the _stylelint_ set-up instructions to either the `package.json` or a `.stylelintrc` file in your project's root directory.
+
+### `package.json`
 
 ```jsonc
-{
-    // ...
-    "stylelint": {
-        "extends": ["@geniemouse/stylelint-config"]
-        "rules": {
-            // Add new/overriding rules, as necessary
-        }
-    },
-    // ...
+"stylelint": {
+    "extends": ["@geniemouse/stylelint-config"]
+    "rules": {
+        // Add new/overriding rules, as necessary
+    }
 }
 ```
 
-Or add them to a `.stylelintrc` file at the project root:
+### `.stylelintrc`
 
 ```jsonc
 {
@@ -53,6 +63,8 @@ Or add them to a `.stylelintrc` file at the project root:
     }
 }
 ```
+
+### Adding new/overriding rules
 
 Additional _stylelint_ rules/overrides should be written to the `rules` property.
 
@@ -88,6 +100,23 @@ E.g. For a `.stylelintrc` file, it looks like this:
     }
 }
 ```
+
+**Additional project script command**
+
+With the installation of `stylelint-config-prettier`, a new command can be added to the `scripts` section of your `package.json` file:
+
+```jsonc
+"scripts": {
+    // ...
+    "stylelint-check": "stylelint-config-prettier-check",
+    // ...
+}
+```
+
+Running this command will report any conflicting _Prettier/stylelint_ rules.
+
+-   `npm run stylelint-check`
+-   `yarn stylelint-check`
 
 <!-- LINK REFERENCES -->
 
