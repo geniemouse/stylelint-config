@@ -1,20 +1,19 @@
-<!-- MarkdownTOC autolink="true" autoanchor="false" -->
-
-- [`@geniemouse/stylelint-config`](#geniemousestylelint-config)
-    - [Installation](#installation)
-    - [Configuration](#configuration)
-        - [`package.json`](#packagejson)
-        - [`.stylelintrc`](#stylelintrc)
-        - [Adding new/overriding rules](#adding-newoverriding-rules)
-        - [Using alongside Prettier](#using-alongside-prettier)
-
-<!-- /MarkdownTOC -->
-
 # `@geniemouse/stylelint-config`
 
 Keep project CSS formatting consistent and free of obvious errors across projects with [stylelint] and this base configuration.
 
 This configuration is strict.
+
+<!-- MarkdownTOC autolink="true" autoanchor="false" levels="2,3,4,5,6" -->
+
+- [Installation](#installation)
+- [Configuration](#configuration)
+    - [`package.json`](#packagejson)
+    - [`.stylelintrc`](#stylelintrc)
+    - [Adding new/overriding rules](#adding-newoverriding-rules)
+    - [Using alongside Prettier](#using-alongside-prettier)
+
+<!-- /MarkdownTOC -->
 
 ## Installation
 
