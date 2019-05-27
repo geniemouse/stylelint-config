@@ -4,14 +4,14 @@ Keep project CSS formatting consistent and free of obvious errors across project
 
 This configuration is strict.
 
-<!-- MarkdownTOC autolink="true" autoanchor="false" levels="2,3,4,5,6" -->
+<!-- MarkdownTOC levels="2,3,4" -->
 
-- [Installation](#installation)
-- [Configuration](#configuration)
-    - [`package.json`](#packagejson)
-    - [`.stylelintrc`](#stylelintrc)
-    - [Adding new/overriding rules](#adding-newoverriding-rules)
-    - [Using alongside Prettier](#using-alongside-prettier)
+1. [Installation](#installation)
+1. [Configuration](#configuration)
+    1. [`package.json`](#packagejson)
+    1. [`.stylelintrc`](#stylelintrc)
+    1. [Adding new/overriding rules](#adding-newoverriding-rules)
+    1. [Using alongside Prettier](#using-alongside-prettier)
 
 <!-- /MarkdownTOC -->
 
