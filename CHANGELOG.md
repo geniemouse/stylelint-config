@@ -4,6 +4,11 @@ Significant package changes will be detailed here.
 
 ---
 
+## 1.0.2 (2019-07-18)
+
+-   [76987c8](https://github.com/geniemouse/stylelint-config/commit/76987c8) Update `yarn.lock` packages
+-   [618a42f](https://github.com/geniemouse/stylelint-config/commit/618a42f) Update `.gitattributes` file to normalise file line-endings
+
 ## 1.0.1 (2019-05-27)
 
 -   [6607d99](https://github.com/geniemouse/stylelint-config/commit/6607d99) Update tests: check plugins present
