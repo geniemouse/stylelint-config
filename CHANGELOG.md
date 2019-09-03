@@ -4,6 +4,10 @@ Significant package changes will be detailed here.
 
 ---
 
+## 1.0.3 (2019-09-03)
+
+-   [9d7a6d3](https://github.com/geniemouse/prettier-config/commit/9d7a6d3) Update `yarn.lock` file package dependencies
+
 ## 1.0.2 (2019-07-18)
 
 -   [76987c8](https://github.com/geniemouse/stylelint-config/commit/76987c8) Update `yarn.lock` packages
